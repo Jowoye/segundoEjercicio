@@ -21,7 +21,7 @@ CREATE TABLE `purchase` (
    CONSTRAINT `purchaseProductId` FOREIGN KEY (`purchaseProductId`) REFERENCES `product` (`idproduct`)
  ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
  
- 3- In the application find the file service.java and change the user and password to your credentials
+ 3- In the application find the file service.java and change the user and password with your credentials
  
  4- Run the application.
  
